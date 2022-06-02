@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --background-color: #FAFAFA;
+    --text-grey: #BDBDBD;
+    --text-grey1: #333333;
+    --text-grey2: #4F4F4F;
+}
+
+.box-continer { 
+    width: 90%;
+    margin: 100px auto;
+}
+
+.box-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.box-paragraph {
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 38px;
+}
+
+.text-title {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text-title-two {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.text-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.box-item-person {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-image-text {
+    display: flex;
+}
+
+.text-vertical {
+    writing-mode: vertical-lr;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.box-image {
+    width: 138.72px;
+}
+
+.image {
+    width: 100%;
+}
+
+.text-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.item-down { 
+    margin-top: 100px;
+}
+
+.box-item-one {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.box-item-person:nth-child(2n) {
+    margin-top: 60px;
+}
+
+
+.footer-box {
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+}
+
+.footer-text-p {
+    text-align: center;
+    color: var(--text-grey);
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.footer-text-p span{
+    font-weight: 700;
+}
+
+@media (min-width: 
+/* 376px*/ 576px
+) { 
+    body { 
+        background-color: var(--background-color);
+    }
+    
+    .box-item-person:nth-child(2n) {
+        margin-top: 0;
+    }
+
+    .box-item-person:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .box-item-person:nth-child(5) {
+        margin-top: 100px;
+    }
+
+    .box-continer { 
+        width: 95%;
+    }
+
+    .box-paragraph {
+        width: 439px;
+    }
+    
+    .box-image {
+        width: 238px;
+    }
+}
+
+@media (min-width: 
+/* 376px*/ 992px
+) { 
+    body { 
+        background-color: var(--background-color);
+    }
+    
+    .box-continer { 
+        width: 55%;
+    }
+
+    .box-paragraph {
+        margin-top: 0;
+    }
+
+    .box-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box-image {
+        width: 238px;
+    }
+}
